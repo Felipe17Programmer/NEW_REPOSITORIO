@@ -1,12 +1,26 @@
 #include <iostream>
 //http://rogerdudler.github.io/git-guide/index.es.html//
+//int = 4 byte
 using namespace std;
 
 int main()
 {
-    int a,b,z=0;
+    /*float a,b,suma=0,multipli=0,division=0;
+
     cout<<"Digite un valor para a y b: "; cin>>a>>b;
-    z = a + b;
-    cout << "La suma de "<<a<<" y "<<b<<" es igual a "<< z<<endl;
+    suma = a + b;
+    multipli = a * b;
+    division = a / b;
+    cout << "\nLa suma de "<<a<<" y "<<b<<" es igual a "<< suma<<endl;
+    cout << "\nLa multiplicacion de "<<a<<" y "<<b<<" es igual a "<< multipli<<endl;
+    cout << "\nLa division de "<<a<<" y "<<b<<" es igual a "<< division<<endl;
     return 0;
+    */
+    int a;
+    int z;
+    a = 2147483647;
+    z = a + 1;
+    cout<<z<<endl;
+    return 0;
+
 }
